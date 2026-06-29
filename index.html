@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RisolDay.id - cita rasa yang konsisten.</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="navbar">
+    <div class="container">
+
+      <div class="logo">
+        <img src="Logo RisolDay.id (1280 x 720 px).png" alt="Logo UMKM" class="logo-img" />
+      </div>
+
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav>
+        <a href="#tentang">Profil Risol.id</a>
+        <a href="#produk">Menu Risol</a>
+        <a href="#galeri">Foto Risol</a>
+        <a href="#testimoni">Review Pelanggan</a>
+        <a href="#cara-order">Langkah Pemesanan</a>
+        <a href="#kontak">Hubungi Admin</a>
+      </nav>
+
+      <a href="https://wa.me/628811918001" class="btn btn-wa navbar-wa" target="_blank">
+        Order Sekarang
+      </a>
+    </div>
+  </header>
+
+  <section class="hero" id="beranda">
+    <div class="container">
+      <div class="hero-content">
+
+        <div class="hero-text">
+          <p class="hero-tag">Camilan Gurih Berkualitas</p>
+          <h1>Sensasi Risol <span class="highlight">Lezat</span><br>dari Dapur Rumahan</h1>
+          <p class="subtitle">
+            Risol homemade dengan bahan segar, diracik dengan penuh perhatian untuk rasa yang bikin nagih.
+          </p>
+          <div class="hero-buttons">
+
+            <a href="https://wa.me/628811918001" class="btn btn-wa" target="_blank">
+              Pesan Sekarang via WhatsApp
+            </a>
+            <a href="#produk" class="btn btn-outline">Lihat Varian Risol</a>
+          </div>
+        </div>
+
+        <img src="Logo RisolDay.id (1080 x 1080 px).png" alt="Banner UMKM" class="hero-banner" />
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="tentang">
+    <div class="container">
+      <div class="about-grid">
+
+        <div class="about-images">
+          <img src="Foto Aneka RisolDay.id.png" alt="Foto Utama" class="img-main" />
+          <img src="Foto Isian RisolDay.id.png" alt="Foto Tambahan" class="img-small" />
+
+          <div class="experience-badge">
+            <strong>Dipercaya</strong>
+            <span>Banyak<br>Pelanggan</span>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <p class="section-tag">Tentang RisolDay.id</p>
+          <h2 class="about-title">Kami Sajikan Risol<br><span class="highlight">dengan Rasa Terbaik</span></h2>
+          <p class="about-description">
+            RisolDay.id hadir sebagai camilan homemade yang mengutamakan rasa khas dan kualitas terbaik. Setiap risol dibuat dari bahan segar pilihan, diolah higienis dengan cita rasa yang konsisten.
+          </p>
+
+          <ul class="about-checks">
+            <li>
+
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--warna-utama)" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Menggunakan Bahan Segar Berkualitas</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--warna-utama)" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Isian Melimpah & Rasa Maksimal</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="var(--warna-utama)" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Gurihnya Bikin Ketagihan</span>
+            </li>
+          </ul>
+
+          <a href="#produk" class="btn btn-outline-dark" style="margin-top: 12px;">Lihat Menu Risol</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="produk">
+    <div class="container">
+
+      <p class="section-tag">Pilihan Menu Risol</p>
+      <h2 class="section-title">Menu Risol Favorit</h2>
+      <p class="section-subtitle">Dibuat fresh setiap hari dengan bahan berkualitas dan rasa konsisten.</p>
+
+      <div class="product-grid">
+
+        <div class="product-card">
+          <div class="product-img-wrapper">
+
+            <img src="Mayo RisolDay.id.png" alt="Produk 1" class="product-img" onclick="bukaModal(this.src)" />
+
+            <div class="product-badge">Paling Laris</div>
+          </div>
+          <div class="product-info">
+            <h3>Risol Mayo</h3>
+            <p>Isian mayo spicy dengan potongan telur dan kornet, menghadirkan rasa gurih pedas yang lebih nikmat.</p>
+            <div class="product-footer">
+
+              <span class="price">Rp 5.000</span>
+
+              <a href="https://wa.me/628811918001?text=Halo,%20saya%20mau%20pesan%20Produk%201" class="btn-order"
+                target="_blank">Pesan</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="Sayur RisolDay.id.png" alt="Produk 2" class="product-img" onclick="bukaModal(this.src)" />
+          </div>
+          <div class="product-info">
+            <h3>Risol Sayur</h3>
+            <p>Isian sayuran lengkap dengan bumbu gurih, cocok untuk camilan ringan sehari-hari.</p>
+            <div class="product-footer">
+              <span class="price">Rp 5.000</span>
+              <a href="https://wa.me/628811918001?text=Halo,%20saya%20mau%20pesan%20Produk%202" class="btn-order"
+                target="_blank">Pesan</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img-wrapper">
+            <img src="Boognese RisolDay.id.png" alt="Produk 3" class="product-img" onclick="bukaModal(this.src)" />
+            <div class="product-badge new">Varian Baru</div>
+          </div>
+          <div class="product-info">
+            <h3>Risol Bolognese</h3>
+            <p>Isian saus daging khas bolognese dengan rasa rich dan sedikit creamy.</p>
+            
+            <div class="product-footer">
+              <span class="price">Rp 5.000</span>
+              <a href="https://wa.me/628811918001?text=Halo,%20saya%20mau%20pesan%20Produk%203" class="btn-order"
+                target="_blank">Pesan</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="gallery" id="galeri">
+    <div class="container">
+
+      <p class="section-tag">Koleksi Menu</p>
+      <h2 class="section-title">Galeri Risol & Proses Produksi</h2>
+      <p class="section-subtitle">Intip tampilan risol homemade serta proses pembuatan yang fresh setiap hari.</p>
+
+      <div class="gallery-grid">
+        <img src="F Produk RisolDay.id Pertama.png" alt="Galeri 1" class="gallery-img" onclick="bukaModal(this.src)" />
+        <img src="F Produk RisolDay.id Kedua.png" alt="Galeri 2" class="gallery-img" onclick="bukaModal(this.src)" />
+        <img src="F Produk RisolDay.id Ketiga.png" alt="Galeri 3" class="gallery-img" onclick="bukaModal(this.src)" />
+        <img src="Proses Produksi RisolDay.id Pertama.png" alt="Galeri 4" class="gallery-img" onclick="bukaModal(this.src)" />
+        <img src="Proses Produksi RisolDay.id Kedua.png" alt="Galeri 5" class="gallery-img" onclick="bukaModal(this.src)" />
+        <img src="Proses Produksi RisolDay.id Ketiga.png" alt="Galeri 6" class="gallery-img" onclick="bukaModal(this.src)" />
+      </div>
+
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimoni">
+    <div class="container">
+
+      <p class="section-tag">Testimoni Pembeli</p>
+      <h2 class="section-title">Cerita dari Pelanggan Kami</h2>
+      <p class="section-subtitle">Rasa puas pelanggan jadi semangat kami untuk terus menyajikan risol terbaik.</p>
+
+      <div class="testimonial-grid">
+
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            “Kulit risolnya renyah dan isiannya melimpah. Mayo spicy-nya favorit banget di rumah!”
+          </blockquote>
+          <div class="reviewer-info">
+            <div class="avatar">LA</div>
+            <div>
+              <div class="reviewer-name">Naila</div>
+              <div class="reviewer-title">Langganan Setia</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            “Pesanan datang masih hangat, packing rapi, dan rasanya konsisten enak setiap order.”
+          </blockquote>
+          <div class="reviewer-info">
+            <div class="avatar">LX</div>
+            <div>
+              <div class="reviewer-name">Aylix One</div>
+              <div class="reviewer-title">Customer Favorit</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            “Varian bolognese-nya creamy dan gurih banget. Cocok buat camilan maupun frozen stock di rumah.”
+          </blockquote>
+          <div class="reviewer-info">
+            <div class="avatar">IF</div>
+            <div>
+              <div class="reviewer-name">Irfan Karomi</div>
+              <div class="reviewer-title">Pelanggan Aktif</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section class="how-to-order" id="cara-order">
+    <div class="container">
+
+      <p class="section-tag">Langkah Pemesanan</p>
+      <h2 class="section-title">Cara Praktis Order Risol</h2>
+      <p class="section-subtitle">Nikmati risol favoritmu dengan proses pemesanan yang cepat dan simpel.</p>
+
+      <div class="steps-grid">
+
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <div class="step-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg></div>
+          <h3>Chat Admin RisolDay.id</h3>
+          <p>Kirim daftar varian risol dan jumlah pesanan melalui WhatsApp admin kami.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <div class="step-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+              <line x1="1" y1="10" x2="23" y2="10"></line>
+            </svg></div>
+          <h3>Checkout Pesanan</h3>
+          <p>Admin akan menginformasikan total pembayaran beserta ongkos kirim yang dapat dibayar melalui transfer atau e-wallet.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <div class="step-icon"><svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line>
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg></div>
+          <h3>Risol Siap Dinikmati</h3>
+          <p>Pesanan diproses fresh, dikemas aman, lalu dikirim langsung ke lokasi tujuan.</p>
+        </div>
+
+      </div>
+
+      <div class="order-cta">
+        <a href="https://wa.me/628?text=Halo,%20saya%20mau%20pesan!" class="btn btn-wa btn-large"
+          target="_blank">
+          Pesan Risol Sekarang
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="contact" id="kontak">
+    <div class="container">
+
+      <p class="section-tag">Kontak RisolDay.id</p>
+      <h2 class="section-title">Butuh Informasi Lebih Lanjut?</h2>
+      <p class="section-subtitle">Tim kami siap melayani pesanan dan pertanyaanmu kapan saja.</p>
+
+      <div class="contact-grid">
+
+        <div class="contact-info">
+
+          <div class="contact-item">
+            <div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg></div>
+            <div>
+              <strong>Admin Order</strong>
+              <a href="https://wa.me/628811918001" target="_blank">+62 881-1918-001</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg></div>
+            <div>
+              <strong>Official Instagram</strong>
+              <a href="https://instagram.com/risolday.id" target="_blank">@RisolDay.id</a>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg></div>
+            <div>
+              <strong>Lokasi Produksi</strong>
+              <span>Kab. Tangerang, Banten</span>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg></div>
+            <div>
+              <strong>Waktu Pelayanan</strong>
+              <span>Senin – Sabtu : 15.00 – 19.00<br>Minggu : Tetap Buka</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="contact-map">
+          <p class="map-title">Area Pengiriman RisolDay.id</p>
+          <p class="map-hint">
+            RisolDay.id melayani pemesanan area Kab. Tangerang dan sekitarnya dengan layanan delivery setiap hari.<br>
+            Tersedia pemesanan harian, pre-order acara, arisan, hingga frozen risol siap stok di rumah.
+          </p>
+
+          <a href="https://maps.google.com" class="btn-outline-dark" target="_blank">
+            Lihat Lokasi Sekarang
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand-col">
+          <p class="footer-brand">RisolDay.id</p>
+          <p class="footer-tagline">Risol homemade dengan isian lezat dan rasa yang bikin nagih.</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="#tentang">Profil Kami</a>
+          <a href="#produk">Varian Risol</a>
+          <a href="#galeri">Foto Produk</a>
+          <a href="#kontak">Hubungi Admin</a>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://wa.me/628811918001" target="_blank">Order via WhatsApp</a>
+          <a href="https://instagram.com/risolday.id" target="_blank">Follow Instagram Kami</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p>&copy; 2020 RisolDay.id • Homemade Risol Fresh Every Day • Dibuat oleh Randy Maulana Putra (NIM 24110310066)</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- Modal untuk Gambar ga usah diotak atik -->
+  <div id="modalGambar" class="modal" onclick="tutupModal()">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="imgModal">
+  </div>
+
+  <script>
+    function bukaModal(src) {
+      document.getElementById("modalGambar").style.display = "flex";
+      document.getElementById("imgModal").src = src;
+    }
+    function tutupModal() {
+      document.getElementById("modalGambar").style.display = "none";
+    }
+
+    // Auto-close menu mobile saat link diklik pake js dikit, juga ga usah diotak atik.
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById("menu-toggle").checked = false;
+      });
+    });
+  </script>
+</body>
+
+</html>
